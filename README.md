@@ -1,6 +1,7 @@
 # AUTOMATIC-LED-CONTROL-IR-SENSOR
 ##  AIM
 To design and implement a system using the **STM32 microcontroller** where an LED automatically turns ON or OFF based on the input from an **IR sensor**.
+
 ---
 
 ##  Components Required
