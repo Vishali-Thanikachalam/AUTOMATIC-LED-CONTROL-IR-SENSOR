@@ -68,7 +68,6 @@ An **IR sensor** detects the presence of an object by emitting and receiving inf
 
 ### 💻 **Program**
 
-
 ```c
 #include "main.h"
 
@@ -105,7 +104,6 @@ CASE 1: LED ON
 
 CASE 2: LED OFF
 <img width="1299" height="620" alt="image" src="https://github.com/user-attachments/assets/e49729ee-6898-4f7b-b56a-37b47e1a3742" />
-
 ---
 ### RESULT
 
