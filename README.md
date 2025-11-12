@@ -1,7 +1,6 @@
 # AUTOMATIC-LED-CONTROL-IR-SENSOR
 ##  AIM
 To design and implement a system using the **STM32 microcontroller** where an LED automatically turns ON or OFF based on the input from an **IR sensor**.
-
 ---
 
 ##  Components Required
@@ -67,16 +66,13 @@ An **IR sensor** detects the presence of an object by emitting and receiving inf
 
 ```c
 #include "main.h"
-
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
-
 int main(void)
 {
     HAL_Init();
     SystemClock_Config();
     MX_GPIO_Init();
-
     while (1)
     {
         GPIO_PinState ir = HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_10); // IR OUT at PA10 (D2)
@@ -89,7 +85,6 @@ int main(void)
 	      {
 	          HAL_GPIO_WritePin(GPIOB, GPIO_PIN_3, GPIO_PIN_RESET); // Turn OFF LED
 	      }
-
 	      HAL_Delay(100);
     }
 }
