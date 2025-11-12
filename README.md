@@ -10,7 +10,6 @@ To design and implement a system using the **STM32 microcontroller** where an LE
 - LED (5mm Green or any color)
 - Jumper wires
 - Breadboard
-
 ---
 
 ##  Theory
@@ -36,7 +35,6 @@ An **IR sensor** detects the presence of an object by emitting and receiving inf
    <img width="1110" height="591" alt="image" src="https://github.com/user-attachments/assets/f93d88b6-cd7f-49db-84de-351f9b116488" />
 
 4. Name the project.
-   
    <img width="533" height="490" alt="image" src="https://github.com/user-attachments/assets/63de2bab-69d4-4cb9-8db6-1b57adff9878" />
 
 6. The corresponding `.ioc` file will be generated automatically.
@@ -63,7 +61,6 @@ An **IR sensor** detects the presence of an object by emitting and receiving inf
     <img width="1080" height="591" alt="image" src="https://github.com/user-attachments/assets/f72fff44-6073-4ae4-aa78-0da455df9af1" />
 
 13. Click **Run** to execute the program.
-    
 ---
 
 ### 💻 **Program**
